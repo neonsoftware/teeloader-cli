@@ -67,8 +67,8 @@ func main() {
 
     if c.Bool("l") {
       fmt.Println("\n\n\tList mode active.\n")
-      teensys := teeloader.GetConnectedUSBTeensy()
-      fmt.Println("\tTeensy Devices List : Size : ", len(teensys), " - Strings : ", teensys, "\n" )
+      //teensys := teeloader.GetConnectedUSBTeensy()
+      //fmt.Println("\tTeensy Devices List : Size : ", len(teensys), " - Strings : ", teensys, "\n" )
       listActive = true
     }
 
